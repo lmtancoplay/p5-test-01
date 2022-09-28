@@ -22,7 +22,7 @@ function changeColor() {
 function draw() {
   background(bgcolor);
   fill(255, 0, 175);
-  ellipse(100, 100, slider1.value(), slider2.value());
+  ellipse(width/2, height/2, slider1.value(), slider2.value());
   text(t.value(), 0, 20);
   nameP.html('you typed: ' + t.value())
 }
