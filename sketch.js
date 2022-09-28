@@ -21,7 +21,7 @@ function changeColor() {
 
 function draw() {
   background(bgcolor);
-  fill(255, 0, 175);
+  fill(255, 255, 175);
   ellipse(200, 200, slider1.value(), slider2.value());
   text(t.value(), 0, 20);
   nameP.html('you typed: ' + t.value())
