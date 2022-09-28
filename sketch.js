@@ -2,7 +2,7 @@ let bgcolor;
 let button, slider1, slider2, t, nameP;
 
 function setup() {
-  createCanvas(200, 200);
+  createCanvas(400, 400);
   bgcolor = color(200);
   button = createButton("Change BG");
   button.mousePressed(changeColor);
